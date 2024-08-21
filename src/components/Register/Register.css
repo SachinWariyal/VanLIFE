@@ -1,0 +1,36 @@
+.container-all{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.register-container{
+    flex-grow: 1;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.input-fields{
+    height: 8vh;
+    width: 40vw;
+    text-align: center;
+    margin: .31rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+.register-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.register-button{
+    height: 8vh;
+    width: 20vw;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(33, 248, 50);
+
+}
